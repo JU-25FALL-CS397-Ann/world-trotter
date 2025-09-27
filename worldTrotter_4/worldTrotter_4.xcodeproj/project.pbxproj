@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DD91AA32E878B2900FFDEC7 /* worldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = worldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DD91AB92E878B2D00FFDEC7 /* worldTrotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = worldTrotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DD91AC32E878B2D00FFDEC7 /* worldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = worldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD91AA32E878B2900FFDEC7 /* worldTrotter_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = worldTrotter_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD91AB92E878B2D00FFDEC7 /* worldTrotter_4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = worldTrotter_4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD91AC32E878B2D00FFDEC7 /* worldTrotter_4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = worldTrotter_4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0DD91ACB2E878B2D00FFDEC7 /* Exceptions for "worldTrotter" folder in "worldTrotter" target */ = {
+		0DD91ACB2E878B2D00FFDEC7 /* Exceptions for "worldTrotter" folder in "worldTrotter_4" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 0DD91AA22E878B2900FFDEC7 /* worldTrotter */;
+			target = 0DD91AA22E878B2900FFDEC7 /* worldTrotter_4 */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		0DD91AA52E878B2900FFDEC7 /* worldTrotter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				0DD91ACB2E878B2D00FFDEC7 /* Exceptions for "worldTrotter" folder in "worldTrotter" target */,
+				0DD91ACB2E878B2D00FFDEC7 /* Exceptions for "worldTrotter" folder in "worldTrotter_4" target */,
 			);
 			path = worldTrotter;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		0DD91AA42E878B2900FFDEC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DD91AA32E878B2900FFDEC7 /* worldTrotter.app */,
-				0DD91AB92E878B2D00FFDEC7 /* worldTrotterTests.xctest */,
-				0DD91AC32E878B2D00FFDEC7 /* worldTrotterUITests.xctest */,
+				0DD91AA32E878B2900FFDEC7 /* worldTrotter_4.app */,
+				0DD91AB92E878B2D00FFDEC7 /* worldTrotter_4Tests.xctest */,
+				0DD91AC32E878B2D00FFDEC7 /* worldTrotter_4UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DD91AA22E878B2900FFDEC7 /* worldTrotter */ = {
+		0DD91AA22E878B2900FFDEC7 /* worldTrotter_4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD91ACC2E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotter" */;
+			buildConfigurationList = 0DD91ACC2E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotter_4" */;
 			buildPhases = (
 				0DD91A9F2E878B2900FFDEC7 /* Sources */,
 				0DD91AA02E878B2900FFDEC7 /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				0DD91AA52E878B2900FFDEC7 /* worldTrotter */,
 			);
-			name = worldTrotter;
+			name = worldTrotter_4;
 			packageProductDependencies = (
 			);
 			productName = worldTrotter;
-			productReference = 0DD91AA32E878B2900FFDEC7 /* worldTrotter.app */;
+			productReference = 0DD91AA32E878B2900FFDEC7 /* worldTrotter_4.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0DD91AB82E878B2D00FFDEC7 /* worldTrotterTests */ = {
+		0DD91AB82E878B2D00FFDEC7 /* worldTrotter_4Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD91AD12E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotterTests" */;
+			buildConfigurationList = 0DD91AD12E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotter_4Tests" */;
 			buildPhases = (
 				0DD91AB52E878B2D00FFDEC7 /* Sources */,
 				0DD91AB62E878B2D00FFDEC7 /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				0DD91ABC2E878B2D00FFDEC7 /* worldTrotterTests */,
 			);
-			name = worldTrotterTests;
+			name = worldTrotter_4Tests;
 			packageProductDependencies = (
 			);
 			productName = worldTrotterTests;
-			productReference = 0DD91AB92E878B2D00FFDEC7 /* worldTrotterTests.xctest */;
+			productReference = 0DD91AB92E878B2D00FFDEC7 /* worldTrotter_4Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0DD91AC22E878B2D00FFDEC7 /* worldTrotterUITests */ = {
+		0DD91AC22E878B2D00FFDEC7 /* worldTrotter_4UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD91AD42E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotterUITests" */;
+			buildConfigurationList = 0DD91AD42E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotter_4UITests" */;
 			buildPhases = (
 				0DD91ABF2E878B2D00FFDEC7 /* Sources */,
 				0DD91AC02E878B2D00FFDEC7 /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				0DD91AC62E878B2D00FFDEC7 /* worldTrotterUITests */,
 			);
-			name = worldTrotterUITests;
+			name = worldTrotter_4UITests;
 			packageProductDependencies = (
 			);
 			productName = worldTrotterUITests;
-			productReference = 0DD91AC32E878B2D00FFDEC7 /* worldTrotterUITests.xctest */;
+			productReference = 0DD91AC32E878B2D00FFDEC7 /* worldTrotter_4UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0DD91A9E2E878B2900FFDEC7 /* Build configuration list for PBXProject "worldTrotter" */;
+			buildConfigurationList = 0DD91A9E2E878B2900FFDEC7 /* Build configuration list for PBXProject "worldTrotter_4" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DD91AA22E878B2900FFDEC7 /* worldTrotter */,
-				0DD91AB82E878B2D00FFDEC7 /* worldTrotterTests */,
-				0DD91AC22E878B2D00FFDEC7 /* worldTrotterUITests */,
+				0DD91AA22E878B2900FFDEC7 /* worldTrotter_4 */,
+				0DD91AB82E878B2D00FFDEC7 /* worldTrotter_4Tests */,
+				0DD91AC22E878B2D00FFDEC7 /* worldTrotter_4UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		0DD91ABB2E878B2D00FFDEC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0DD91AA22E878B2900FFDEC7 /* worldTrotter */;
+			target = 0DD91AA22E878B2900FFDEC7 /* worldTrotter_4 */;
 			targetProxy = 0DD91ABA2E878B2D00FFDEC7 /* PBXContainerItemProxy */;
 		};
 		0DD91AC52E878B2D00FFDEC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0DD91AA22E878B2900FFDEC7 /* worldTrotter */;
+			target = 0DD91AA22E878B2900FFDEC7 /* worldTrotter_4 */;
 			targetProxy = 0DD91AC42E878B2D00FFDEC7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +485,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worldTrotter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/worldTrotter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worldTrotter_4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/worldTrotter_4";
 			};
 			name = Debug;
 		};
@@ -507,7 +507,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worldTrotter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/worldTrotter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worldTrotter_4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/worldTrotter_4";
 			};
 			name = Release;
 		};
@@ -554,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DD91A9E2E878B2900FFDEC7 /* Build configuration list for PBXProject "worldTrotter" */ = {
+		0DD91A9E2E878B2900FFDEC7 /* Build configuration list for PBXProject "worldTrotter_4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD91ACF2E878B2D00FFDEC7 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DD91ACC2E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotter" */ = {
+		0DD91ACC2E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotter_4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD91ACD2E878B2D00FFDEC7 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DD91AD12E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotterTests" */ = {
+		0DD91AD12E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotter_4Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD91AD22E878B2D00FFDEC7 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DD91AD42E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotterUITests" */ = {
+		0DD91AD42E878B2D00FFDEC7 /* Build configuration list for PBXNativeTarget "worldTrotter_4UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD91AD52E878B2D00FFDEC7 /* Debug */,
