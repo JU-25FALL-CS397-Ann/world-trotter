@@ -79,8 +79,6 @@ This project demonstrates iOS app development concepts from Chapters 3-7, includ
   <img src="screenshots/chapter7/7_bronze.png" width="250" alt="English"/>
 </div>
 
-*Multi-language support: English, Spanish (Español), French (Français)*
-
 ## Technical Implementation
 
 ### Architecture
