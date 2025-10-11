@@ -76,9 +76,7 @@ This project demonstrates iOS app development concepts from Chapters 3-7, includ
 
 ### Chapter 7 - Internationalization & Localization
 <div align="center">
-  <img src="screenshots/chapter7/7_english.png" width="250" alt="English"/>
-  <img src="screenshots/chapter7/7_spanish.png" width="250" alt="Spanish"/>
-  <img src="screenshots/chapter7/7_french.png" width="250" alt="French"/>
+  <img src="screenshots/chapter7/7_bronze.png" width="250" alt="English"/>
 </div>
 
 *Multi-language support: English, Spanish (Español), French (Français)*
