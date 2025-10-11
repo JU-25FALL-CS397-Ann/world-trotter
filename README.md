@@ -1,36 +1,45 @@
 # WorldTrotter iOS App
 
-An iOS application built with Swift and UIKit, featuring temperature conversion, interactive maps, and quiz functionality.
+An iOS application built with Swift and UIKit, featuring temperature conversion, interactive maps, quiz functionality, and internationalization support.
 
 ## Overview
 
-This project demonstrates iOS app development concepts from Chapters 3-6, including:
+This project demonstrates iOS app development concepts from Chapters 3-7, including:
 - Programmatic Auto Layout and Interface Builder approaches
 - Tab bar navigation
 - MapKit integration with location services
 - Interactive UI components
 - Text input validation
 - Custom gradient backgrounds
+- Internationalization and localization
 
 ## Features
 
-### Temperature Converter (Chapters 3 & 6)
+### Temperature Converter (Chapters 3, 6 & 7)
 - Convert between Fahrenheit and Celsius
 - Orange gradient background
 - Three layout approaches: Bronze (basic), Silver (programmatic), Gold (advanced)
 - Real-time conversion with custom formatting
 - Input validation prevents alphabetic characters (Chapter 6 Bronze Challenge)
+- Locale-aware decimal separator handling and NumberFormatter parsing (Chapter 7)
 
-### Interactive Map (Chapters 4, 5 & 6)
+### Interactive Map (Chapters 4, 5, 6 & 7)
 - MapKit integration with multiple view modes
 - Points of interest toggle switch (Chapter 5 Bronze Challenge)
 - User location detection and region display (Chapter 6 Silver Challenge)
 - Map type selection: Standard, Satellite, Hybrid
+- Localized map control titles using NSLocalizedString (Chapter 7)
 
 ### Quiz Interface (Chapter 4)
 - Question and answer system
 - Navigation between questions
 - Answer reveal functionality
+
+### Internationalization (Chapter 7)
+- Support for multiple languages (English, French, Spanish)
+- Locale-aware number formatting and input validation
+- Localized strings for UI elements and map controls
+- Base localization with language-specific string files
 
 ## Screenshots
 
@@ -65,6 +74,15 @@ This project demonstrates iOS app development concepts from Chapters 3-6, includ
 
 *Bronze: Alphabetic character blocking | Silver: Location permission & user region display*
 
+### Chapter 7 - Internationalization & Localization
+<div align="center">
+  <img src="screenshots/chapter7/7_english.png" width="250" alt="English"/>
+  <img src="screenshots/chapter7/7_spanish.png" width="250" alt="Spanish"/>
+  <img src="screenshots/chapter7/7_french.png" width="250" alt="French"/>
+</div>
+
+*Multi-language support: English, Spanish (Español), French (Français)*
+
 ## Technical Implementation
 
 ### Architecture
@@ -74,19 +92,6 @@ This project demonstrates iOS app development concepts from Chapters 3-6, includ
 - **Maps**: MapKit framework with location services
 - **Input Validation**: CharacterSet-based text filtering
 
-### Key Components
-- `ConversionViewController`: Temperature conversion with text validation
-- `QuizViewController`: Interactive quiz functionality
-- `MapViewController`: MapKit with POI controls and user location
-- `SceneDelegate`: Scene-based app lifecycle management
-
-### Implementation Approaches
-- **Chapter 3**: Programmatic Auto Layout with constraint priorities
-- **Chapter 4**: Interface Builder with IBOutlets and IBActions
-- **Chapter 5**: Enhanced map features and programmatic UI
-- **Chapter 6**: Text validation and Core Location integration
-
-## Project Structure
 
 ```
 worldTrotter_3/
@@ -138,6 +143,29 @@ worldTrotter_6/
 │   └── Info.plist
 ├── worldTrotterTests/
 └── worldTrotterUITests/
+
+worldTrotter_7/
+├── worldTrotter/
+│   ├── AppDelegate.swift
+│   ├── SceneDelegate.swift
+│   ├── ViewController.swift       # ConversionViewController
+│   ├── MapViewController.swift
+│   ├── QuizViewController.swift
+│   ├── Assets.xcassets/
+│   ├── Base.lproj/
+│   │   └── Main.storyboard
+│   ├── en.lproj/
+│   │   ├── Localizable.strings
+│   │   └── Main.strings
+│   ├── es.lproj/
+│   │   ├── Localizable.strings
+│   │   └── Main.strings
+│   ├── fr.lproj/
+│   │   ├── Localizable.strings
+│   │   └── Main.strings
+│   └── Info.plist
+├── worldTrotterTests/
+└── worldTrotterUITests/
 ```
 
 ## Build Information
@@ -160,6 +188,7 @@ worldTrotter_6/
    - `worldTrotter_4/`: Chapter 4 implementation  
    - `worldTrotter_5/`: Chapter 5 implementation
    - `worldTrotter_6/`: Chapter 6 implementation
+   - `worldTrotter_7/`: Chapter 7 implementation (internationalization)
 3. Open the respective `.xcodeproj` file in Xcode
 4. Build and run on iOS Simulator or device
 
@@ -184,5 +213,13 @@ worldTrotter_6/
 - **Bronze**: Text input validation to disallow alphabetic characters using CharacterSet
 - **Silver**: User location detection and region display with Core Location framework
 
+### Chapter 7 Challenges
+- **Bronze**: Internationalization and localization support
+  - Locale-aware decimal separator handling in text input validation
+  - NumberFormatter-based input parsing for proper locale support
+  - NSLocalizedString implementation for map control titles
+  - Multi-language support with Localizable.strings files
+  - Base localization with language-specific Main.strings files
+
 ## Author
-Built as part of CS397 coursework, demonstrating iOS development fundamentals from basic Auto Layout through advanced features like location services and input validation.
+Built as part of CS397 coursework, demonstrating iOS development fundamentals from basic Auto Layout through advanced features like location services, input validation, and internationalization.

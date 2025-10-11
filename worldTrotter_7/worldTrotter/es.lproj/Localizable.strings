@@ -1,0 +1,8 @@
+/* Standard map view */
+"Standard" = "Estándar";
+
+/* Hybrid map view */
+"Hybrid" = "Híbrido";
+
+/* Satellite map view */
+"Satellite" = "Satélite";

@@ -1,0 +1,20 @@
+/* Class = "UITabBarItem"; title = "Convert"; ObjectID = "9pv-A4-QxB"; */
+"9pv-A4-QxB.title" = "Convertir";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "8rJ-Kc-sve"; */
+"8rJ-Kc-sve.title" = "Carte";
+
+/* Class = "UITabBarItem"; title = "Quiz"; ObjectID = "quiz-vc"; */
+"quiz-vc.title" = "Quiz";
+
+/* Class = "UILabel"; text = "degrees Fahrenheit"; ObjectID = "degreesFahrenheitLabel"; */
+"degreesFahrenheitLabel.text" = "degrés Fahrenheit";
+
+/* Class = "UILabel"; text = "degrees Celsius"; ObjectID = "degreesCelsiusLabel"; */
+"degreesCelsiusLabel.text" = "degrés Celsius";
+
+/* Class = "UILabel"; text = "is really"; ObjectID = "isReallyLabel"; */
+"isReallyLabel.text" = "équivaut à";
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "temperatureTextField"; */
+"temperatureTextField.placeholder" = "valeur";
